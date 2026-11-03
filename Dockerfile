@@ -12,7 +12,7 @@ RUN apk add --no-cache su-exec
 COPY --from=caddy /usr/bin/caddy /usr/bin/caddy
 COPY railway/Caddyfile /etc/caddy/Caddyfile
 COPY --chmod=755 railway/railway-start.sh /usr/local/bin/railway-start
-ENV PORT=1515 \
+ENV PORT=8080 \
     LIMELIT_DATA_DIR=/data \
     LIMELIT_USERNAME=admin \
     XDG_CONFIG_HOME=/tmp/caddy-config \
