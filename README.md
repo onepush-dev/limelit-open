@@ -2,7 +2,7 @@
 
 One-click Railway template for [Limelit Open](https://github.com/limelit-co/open) 0.1.0-rc.14 (Apache-2.0): self-hosted AI-visibility tracking. It asks ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews your category's prompts and shows how often they mention and cite your brand against competitors, with a built-in MCP server.
 
-Deploy button: added after the template is generated.
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MmOn4S)
 
 ## What this repo adds
 
